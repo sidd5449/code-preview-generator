@@ -73,32 +73,34 @@ textarea{
     border-radius: 5px;
     cursor: pointer;
 }
+.wrapper{
+    width: fit-content;
+    max-width: 90vw;
+    overflow: scroll;
+    display: block;
+    margin-left: auto;
+}
 .main__editor{
     padding: 8vh;
-    min-width: 30vw;
-    min-height: 24vh;
     background: linear-gradient(-45deg, rgb(63, 124, 246), rgb(209, 33, 142));
     margin-top: 5vh;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 60vw;
-
+    width: fit-content;
 }
 
 .main__editor-display{
     background-color: #13171c;
-    padding: 20px;
-    min-width: 90px;
+    padding: 2vh;
+    min-width: 20px;
     min-height: 20px;
     border-radius: 8px;
     border: none;
     align-items: center;
     color: aliceblue;
     outline: none;
-    max-width: 70vw;
+    width: fit-content;
 }
 pre.prettyprinted{
     border: none;
