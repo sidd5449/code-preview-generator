@@ -91,6 +91,14 @@ textarea{
     flex-direction: column;
     width: fit-content;
 }
+.main__dots{
+    min-width: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.main__dots span{
+    font-size: 1vw;
+}
 
 .main__editor-display{
     background-color: #13171c;
