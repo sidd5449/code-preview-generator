@@ -79,6 +79,7 @@ textarea{
     overflow: scroll;
     display: block;
     margin-left: auto;
+    margin-right: auto;
 }
 .main__editor{
     padding: 8vh;
