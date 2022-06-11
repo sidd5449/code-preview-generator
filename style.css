@@ -157,23 +157,6 @@ footer a:hover{
     font-weight: 300;
 }
 
-.hljs-attribute, .hljs-doctag, .hljs-keyword, .hljs-meta .hljs-keyword, .hljs-name, .hljs-selector-tag {
-    font-weight: 300; 
-    color: rgb(19, 216, 219);
-}
-.hljs-deletion, .hljs-number, .hljs-quote, .hljs-selector-class, .hljs-selector-id, .hljs-string, .hljs-template-tag, .hljs-type {
-    color:rgb(219, 19, 116);
-}
-.hljs-addition, .hljs-built_in, .hljs-bullet, .hljs-code {
-    color: #7bd322;
-}
-.hljs-section, .hljs-title {
-    color: rgb(200, 231, 45);
-    font-weight: 400;
-}
-.hljs-literal {
-    color: rgb(214, 107, 7);
-}
 
 @media screen and (max-width: 720px) {
     .main__dots span{
