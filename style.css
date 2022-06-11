@@ -51,6 +51,7 @@ main, .main__hero{
     color: rgb(173, 173, 173);
     padding: 10px;
 }
+
 textarea{
     border: none;
     outline: none;
