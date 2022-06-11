@@ -1,8 +1,15 @@
+
+
 function fn1(){
     var str = document.getElementById('text').value;
     
     document.getElementById("display").innerHTML = "<code class='prettyprint'>"  + str + "</code>";
-    PR.prettyPrint()
+
+    document.querySelectorAll('code').forEach(el => {
+        // then highlight each
+        hljs.highlightElement(el);
+    });
+    
 }
 
 function capture(){
