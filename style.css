@@ -41,7 +41,7 @@ main, .main__hero{
     -webkit-text-fill-color: transparent;
 }
 #subheading{
-    font-size: 2vw;
+    font-size: 1.2em;
     margin-top: 5vh;
     background: -webkit-linear-gradient(-45deg, rgb(63, 246, 206), rgb(33, 45, 209));
     -webkit-background-clip: text;
@@ -49,26 +49,17 @@ main, .main__hero{
 }
 .main__hero p{
     color: rgb(173, 173, 173);
+    padding: 10px;
 }
-.main__editor{
-    padding: 8vh;
-    min-width: 12vw;
-    min-height: 24vh;
-    background: linear-gradient(-45deg, rgb(63, 124, 246), rgb(209, 33, 142));
-    margin-top: 5vh;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 textarea{
     border: none;
     outline: none;
     margin-top: 5vh;
     border-radius: 8px;
     min-height: 44vh;
-    min-width: 50vw;
+    width: 75vw;
+    max-width: 700px;
     background-color: #211f2b;
     padding: 4vh;
     color: rgb(173, 173, 173);
@@ -83,6 +74,24 @@ textarea{
     border-radius: 5px;
     cursor: pointer;
 }
+.wrapper{
+    width: fit-content;
+    max-width: 90vw;
+    overflow: scroll;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main__editor{
+    padding: 8vh;
+    background: linear-gradient(-45deg, rgb(63, 124, 246), rgb(209, 33, 142));
+    margin-top: 5vh;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
 .main__editor-display{
     background-color: #13171c;
     padding: 2vh;
@@ -93,6 +102,7 @@ textarea{
     align-items: center;
     color: aliceblue;
     outline: none;
+    width: fit-content;
 }
 pre.prettyprinted{
     border: none;
@@ -108,7 +118,7 @@ pre.prettyprinted{
     margin-top: 4vh;
     border: none;
     padding: 2vh;
-    color: rgb(173, 173, 173);
+    color: #fff;
     background: linear-gradient(-45deg, rgb(148, 118, 9), rgb(123, 12, 12));
     border-radius: 8px;
     cursor: pointer;
@@ -132,6 +142,30 @@ footer a:hover{
     font-size: 22px;
 }
 
+
+.hljs {
+    background: transparent;
+    color: #fff;
+    font-weight: 300;
+}
+
+.hljs-attribute, .hljs-doctag, .hljs-keyword, .hljs-meta .hljs-keyword, .hljs-name, .hljs-selector-tag {
+    font-weight: 300; 
+    color: rgb(19, 216, 219);
+}
+.hljs-deletion, .hljs-number, .hljs-quote, .hljs-selector-class, .hljs-selector-id, .hljs-string, .hljs-template-tag, .hljs-type {
+    color:rgb(219, 19, 116);
+}
+.hljs-addition, .hljs-built_in, .hljs-bullet, .hljs-code {
+    color: #7bd322;
+}
+.hljs-section, .hljs-title {
+    color: rgb(200, 231, 45);
+    font-weight: 400;
+}
+.hljs-literal {
+    color: rgb(214, 107, 7);
+}
 /* Prettify styles */
 
 
