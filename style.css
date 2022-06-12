@@ -124,6 +124,7 @@ textarea{
     border: 1px solid white ;
     color: #FFF;
     text-decoration: none;
+    cursor: pointer;
 }
 #button1{
     background: linear-gradient(-45deg, rgb(63, 124, 246), rgb(209, 33, 142));
