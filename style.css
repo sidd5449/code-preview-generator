@@ -47,11 +47,10 @@ main, .main__hero{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.main__hero p{
+p{
     color: rgb(173, 173, 173);
     padding: 10px;
 }
-
 textarea{
     border: none;
     outline: none;
@@ -112,6 +111,35 @@ textarea{
     outline: none;
     width: fit-content;
 }
+.color-buttons{
+    margin-top: 10px;
+    text-align: center;
+}
+.color-button{
+    display: inline-block;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white ;
+    color: #FFF;
+    text-decoration: none;
+}
+#button1{
+    background: linear-gradient(-45deg, rgb(63, 124, 246), rgb(209, 33, 142));
+}
+#button2{
+    background: linear-gradient(-45deg, #2E3192 , #1BFFFF);
+}
+#button3{
+    background: linear-gradient(-45deg, #D4145A ,#FBB03B);
+}
+#button4{
+    background: linear-gradient(-45deg,#FF5F6D, #FFC371);
+}
+#button5{
+    background: linear-gradient(-45deg, #35C3F3 0%, #8b9fe8 20%, #e681d8 39%, #ffa9a4 76%, #FED2CE 100%);
+}
 pre.prettyprinted{
     border: none;
 }
@@ -132,6 +160,7 @@ pre.prettyprinted{
     cursor: pointer;
     
 }
+
 footer{
     margin-top: 6vh;
     margin-bottom: 6vh;
