@@ -110,6 +110,7 @@ textarea{
     color: aliceblue;
     outline: none;
     width: fit-content;
+    padding-left: 3vw
 }
 .color-buttons{
     margin-top: 10px;
