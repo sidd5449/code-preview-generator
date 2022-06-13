@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/base16/colors.min.css" integrity="sha512-7HWKMOkNJU0r9P8Gzx4exh8W96aynMxgblCPvYXYtyj+ZSaHCzWVExli3xWhduNT3GgduZMAXldBxAwDjTG9bA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
     <meta name="keywords" content="carbon, code, beautify, present, beautiful, html, css, javascript">
-    <title>VantaPresent</title>
+    <title>VantaPresent | Generate beautiful images of your source code</title>
 </head>
 
 <body>
@@ -30,13 +31,18 @@
         <div class="wrapper">
             <div class="main__editor" id="main__editor">
                 <div class="main__editor-display">
+                    <div class="main__dots">
+                        <span>🔴</span>
+                        <span>🟡</span>
+                        <span>🟢</span>
+                    </div>
                     <pre class="prettyprint" id="display">
 
                     </pre>
                 </div>
             </div>
         </div>
-        <p>change background</p>
+        <p>Change background</p>
         <div class="color-buttons">
             <div class="color-button" id="button1"></div>
             <div class="color-button" id="button2"></div>

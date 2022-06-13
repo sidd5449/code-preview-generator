@@ -90,6 +90,14 @@ textarea{
     flex-direction: column;
     width: fit-content;
 }
+.main__dots{
+    min-width: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.main__dots span{
+    font-size: 1vw;
+}
 
 .main__editor-display{
     background-color: #13171c;
@@ -102,6 +110,7 @@ textarea{
     color: aliceblue;
     outline: none;
     width: fit-content;
+    padding-right: 3vw
 }
 .color-buttons{
     margin-top: 10px;
@@ -116,6 +125,7 @@ textarea{
     border: 1px solid white ;
     color: #FFF;
     text-decoration: none;
+    cursor: pointer;
 }
 #button1{
     background: linear-gradient(-45deg, rgb(63, 124, 246), rgb(209, 33, 142));
@@ -178,22 +188,12 @@ footer a:hover{
     font-weight: 300;
 }
 
-.hljs-attribute, .hljs-doctag, .hljs-keyword, .hljs-meta .hljs-keyword, .hljs-name, .hljs-selector-tag {
-    font-weight: 300; 
-    color: rgb(19, 216, 219);
-}
-.hljs-deletion, .hljs-number, .hljs-quote, .hljs-selector-class, .hljs-selector-id, .hljs-string, .hljs-template-tag, .hljs-type {
-    color:rgb(219, 19, 116);
-}
-.hljs-addition, .hljs-built_in, .hljs-bullet, .hljs-code {
-    color: #7bd322;
-}
-.hljs-section, .hljs-title {
-    color: rgb(200, 231, 45);
-    font-weight: 400;
-}
-.hljs-literal {
-    color: rgb(214, 107, 7);
+
+@media screen and (max-width: 720px) {
+    .main__dots span{
+        font-size: 2.5vw;
+    }
+    
 }
 /* Prettify styles */
 
