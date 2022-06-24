@@ -3,12 +3,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 body{
     box-sizing: border-box;
     overflow-x: hidden;
     background-color: #13171c;
+    font-family: 'Poppins', sans-serif;
 }
 ::-webkit-scrollbar{
     width: 0;
