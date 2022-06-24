@@ -144,7 +144,6 @@ textarea{
 }
 pre.prettyprinted{
     border: none;
-    font-family: 'PT Sans', sans-serif;
 }
 .prettyprint{
     background: none;
@@ -153,6 +152,9 @@ pre.prettyprinted{
     
     border: none;
     
+}
+pre > code{
+    font-family: 'PT Sans', sans-serif;
 }
 #download{
     margin-top: 4vh;
@@ -188,7 +190,6 @@ footer a:hover{
     background: transparent;
     color: #fff;
     font-weight: 300;
-    font-family: 'PT Sans', sans-serif;
 }
 
 
